@@ -25,7 +25,7 @@ function ToolbarLayout1(props) {
               id="fuse-toolbar"
               className={clsx(classes.root, 'flex relative z-20 shadow-md', props.className)}
               color="default"
-              style={{ backgroundColor: 'var(--page-background-color)', justifyContent: 'space-between', borderBottom: '1px solid #3F416B' }}
+              style={{ backgroundColor: toolbarTheme.palette.background.paper, justifyContent: 'space-between', borderBottom: '1px solid #3F416B' }}
               position="static"
             >
                 <Toolbar className="p-0 min-h-48 md:min-h-64 h-70 justify-between">

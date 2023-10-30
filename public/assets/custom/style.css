@@ -1,0 +1,65 @@
+:root {
+    --white: #ffffff;
+    --default-background-color: #000000;
+    --left-sidebar-background: #0c091b;
+}
+
+body {
+    font-family: 'Sora', sans-serif !important;
+    font-style: normal !important;
+    line-height: 24px !important;
+}
+
+span {
+    font-family: 'Sora', sans-serif !important;
+    font-style: normal !important;
+}
+
+p {
+    font-family: 'Sora', sans-serif !important;
+    font-style: normal !important;
+    white-space: pre-line;
+}
+
+input {
+    font-family: 'Sora', sans-serif !important;
+    font-style: normal !important;
+}
+
+button {
+    font-family: 'Sora', sans-serif !important;
+    font-style: normal !important;
+}
+
+.page-background {
+    background-color: var(--default-background-color);
+}
+
+.bc-transparent {
+    background-color: transparent !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.hyper-link-title {
+    cursor: pointer !important;
+    color: var(--white) !important;
+    color: #1155cc !important;
+    border-bottom: 1px solid #1155cc !important;
+    background: transparent !important;
+}

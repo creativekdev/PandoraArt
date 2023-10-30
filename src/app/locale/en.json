@@ -1,0 +1,25 @@
+{
+    "menu": {
+        "home": "Home",
+        "generate": "Generate"
+    },
+
+    "home": {
+        "goButton": "Go to Generate",
+        "description": "This is Home page, will refer to <a class='hyper-link-title' target='_blank' href='https://www.seaart.ai/'>seaart.ai</a> under models"
+    },
+
+    "generate": {
+        "goButton": "Go to Home",
+        "description": "This is generate page, will use layout from <a class='hyper-link-title' target='_blank' href='https://app.leonardo.ai/ai-generations'>leonardo.ai</a>",
+        "leftSidebar": "This is left side bar"
+    },
+
+    "footer": {
+        "mark": "© 2023 Pandora. All rights reserved"
+    },
+
+    "error": {
+        "notfound": "Not found"
+    }
+}

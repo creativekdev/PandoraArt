@@ -8,7 +8,7 @@ const HomePageConfig = {
           display: false,
         },
         toolbar: {
-          display: false,
+          display: true,
         },
         footer: {
           display: false,
